@@ -1,38 +1,37 @@
-# Plan: projecten in index.html
+# Plan: projectenpagina
 
 Kleine logische stappen. Na iedere stap controleer ik het resultaat voordat ik
 doorga. Per stap: wat ik doe, welk bestand verandert en waarom.
 
-## Stap 1 — Projectensectie in `index.html` uitbreiden
+## Stap 1 — Projectensectie en navigatie in `index.html`
 
-- **Wat:** de bestaande sectie `#projects` hernoemen naar `#projecten` en
-  uitbreiden naar drie complete projectkaarten (Calculator, Todo List,
-  Portfolio) met naam, korte omschrijving en gebruikte technieken. Bestaande
-  onvolledige HTML opruimen (er misten sluitende tags).
+- **Wat:** nav-link "Projecten" en knoppen laten verwijzen naar de nieuwe
+  projectenpagina; de projectensectie op home wordt een korte intro met knop.
 - **Bestand:** `index.html`
-- **Waarom:** de opdracht vraagt minimaal drie projecten met naam,
-  omschrijving en technieken.
+- **Waarom:** de opdracht vraagt een werkende navigatie vanuit de bestaande
+  website naar de projectenpagina.
 
-## Stap 2 — Navigatie en knop instellen
+## Stap 2 — Nieuw bestand `projecten.html`
 
-- **Wat:** nav-link "Projecten" laten wijzen naar `#projecten` en een knop in
-  de header toevoegen die naar dezelfde sectie springt.
-- **Bestand:** `index.html`
-- **Waarom:** de opdracht vraagt een werkende navigatie naar de projecten.
+- **Wat:** eigen pagina met dezelfde nav en footer als `index.html`, een
+  paginakop met titel "Projecten" en drie projectkaarten (Calculator,
+  Todo List, Portfolio) met naam, omschrijving en technieken.
+- **Bestand:** nieuw → `projecten.html`
+- **Waarom:** de projecten moeten op een eigen pagina staan.
 
 ## Stap 3 — CSS uitbreiden
 
-- **Wat:** klassen toevoegen voor de knop, de techniek-tokens onder de
-  projectkaarten, een responsive nav voor mobiel en vlotte ankerscroll.
-  Alleen nieuwe regels, niets overschrijven.
+- **Wat:** klassen toevoegen voor de paginakop, de knop op een lichte
+  achtergrond, de actieve nav-link, de teruglink, de techniek-tokens en een
+  responsive nav voor mobiel. Alleen nieuwe regels.
 - **Bestand:** `css/style.css`
 - **Waarom:** de vormgeving moet aansluiten bij het bestaande portfolio en de
   pagina moet op een telefoon werken.
 
 ## Stap 4 — Controleren en testen
 
-- **Wat:** de pagina openen in de browser, nav-link en knop klikken,
-  controleren of alle eisen uit `SPECIFICATIE.md` voldaan zijn en of de
+- **Wat:** beide pagina's openen in de browser, alle links en knoppen klikken,
+  controleren of de eisen uit `SPECIFICATIE.md` voldaan zijn en of de
   homepagina (contactformulier) nog werkt.
 - **Bestand:** geen (alleen controleren)
 - **Waarom:** de opdracht vraagt om te testen na elke wijziging.
